@@ -52,5 +52,7 @@ Then, the connection of the hall section is:
 Finally, the connection of the output pins MA, MB and MC are connected each to one phase of the motor.
 
 # Code 
-
+To program the QS-909 using Arduino, two main functions are used. The first function is the digitalWrite(Pin, HIGH), which is used to enable the Qs-909 (EL pin) and to define the direction of rotation (ZF pin). The second function is the analogWrite(VR_Speed, 100) to control the speed of the motor.   
+  
+The code is attached under the name (Controlling_QS-909). 
 
